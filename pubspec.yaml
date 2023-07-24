@@ -1,10 +1,10 @@
 name: touch_service_plugin
-description: A new Flutter plugin project.
+description: The Flutter plugin to integrate with the Accessibility Service in the Android for touching & swiping
 version: 0.0.1
-homepage:
+homepage: https://github.com/Hanmactu712/touch_service_plugin
 
 environment:
-  sdk: '>=3.0.6 <4.0.0'
+  sdk: ">=3.0.6 <4.0.0"
   flutter: ">=3.3.0"
 
 dependencies:

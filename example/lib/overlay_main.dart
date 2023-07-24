@@ -77,38 +77,6 @@ class _OverlayMainState extends State<OverlayMain> {
     _sendMessageToHome("Close");
   }
 
-  // @pragma("vm:entry-point")
-  // void overlayPoint() {
-  //   WidgetsFlutterBinding.ensureInitialized();
-  //   runApp(const OverlayPoint());
-  // }
-
-  // void _closePointOverlay() async {
-  //   FlutterOverlayWindow.closeOverlay();
-  // }
-
-  // void _showPointOverlay() async {
-  //   var isEnable = await FlutterOverlayWindow.isPermissionGranted();
-  //   if (!isEnable) {
-  //     await FlutterOverlayWindow.requestPermission();
-  //     return;
-  //   }
-
-  //   if (await FlutterOverlayWindow.isActive()) return;
-  //   await FlutterOverlayWindow.showOverlay(
-  //     enableDrag: true,
-  //     overlayTitle: "demo",
-  //     overlayContent: 'demo',
-  //     flag: OverlayFlag.focusPointer,
-  //     visibility: NotificationVisibility.visibilityPublic,
-  //     positionGravity: PositionGravity.none,
-  //     alignment: OverlayAlignment.center,
-  //     height: 700,
-  //     // width: WindowSize.matchParent,
-  //     width: 200,
-  //   );
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Material(
