@@ -2,8 +2,6 @@ package com.ducdd.touch_service_plugin
 
 /** TouchServicePlugin */
 
-import Point
-import TouchApi
 import android.app.Activity
 import android.content.ComponentName
 import android.content.Context
