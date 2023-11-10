@@ -113,7 +113,7 @@ class TouchServicePlugin : FlutterPlugin, TouchApi, PluginRegistry.ActivityResul
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?): Boolean {
-        TODO("Not yet implemented")
+       return true
     }
 
     override fun onListen(arguments: Any?, events: EventChannel.EventSink?) {
